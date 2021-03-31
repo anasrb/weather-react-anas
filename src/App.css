@@ -1,0 +1,36 @@
+/* todo : Form Css */
+.form-style {
+  padding: 1rem;
+  display: flex;
+  justify-content: center
+}
+
+.form-style > input {
+  flex-basis: 20%;
+  padding: .7rem;
+  border-color: dodgerblue;
+}
+
+.form-style > button {
+  border: none;
+  border-right: 25%;
+  border-top-right-radius: 10%;
+  border-bottom-right-radius: 10%;
+}
+
+/* todo : Weather Cart Css */
+
+.weather-cart {
+  display: flex;
+  justify-content:center
+}
+.weather-cart > div {
+  padding: 1rem;
+
+  flex-basis: 10%;
+  border: 1px yellow solid;
+
+}
+.weather-cart > h1 {
+  font-size: 4rem;
+}
