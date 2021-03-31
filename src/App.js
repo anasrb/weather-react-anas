@@ -3,12 +3,13 @@ import './App.css';
 import SearchBar from './components/SearchBar';
 import WeatherCart from './components/WeatherCart';
 import FavouriteCity from './components/FavouriteCity';
-const container = {
-  height: '100vh',
-  background: 'black',
-  color: 'white',
-};
 
+// const container = {
+//   height: '100vh',
+//   background: 'black',
+//   color: 'white',
+// };
+// */
 const BASE_URL = 'https://api.openweathermap.org/data/2.5/weather';
 
 function App() {
